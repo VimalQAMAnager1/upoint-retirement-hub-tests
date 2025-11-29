@@ -4,7 +4,7 @@ import io.cucumber.testng.CucumberOptions;
 
 
 @CucumberOptions(
-            features = "src/main/resources/feature/pdf.feature",
+            features = "src/main/resources/feature/test.feature",
             glue = "com.cognizant.stepDefinition",
             plugin = {
                     "pretty",
